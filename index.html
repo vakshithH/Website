@@ -1,15 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Title</title>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="script.js"></script>
-    </head>
-    <body>
-        <h1 class="title">Hello World</h1>
-        <div id="mainDiv">Hello Div</div>
-        <br />
-        <button onclick="buttonClicked()">Click me</button>
-    </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NicFree Network - Free Nicotine Addiction Counseling</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#meetings">Meetings</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="nicfreenetwork.jpg" alt="NicFree Network Logo">
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <h1>Welcome to NicFree Network</h1>
+            <p>Free Nicotine Addiction Counseling for a Healthier You</p>
+            <button class="btn">Learn More</button>
+        </section>
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>NicFree Network is a nonprofit organization dedicated to helping individuals overcome nicotine addiction. Our goal is to provide a safe, supportive, and judgment-free space for those struggling with nicotine addiction to share their stories and struggles.</p>
+            <img src="nicfreenetwork.jpg" alt="About Us Image">
+        </section>
+        <section class="meetings" id="meetings">
+            <h2>Meetings</h2>
+            <p>We hold regular meetings, which are 100% free and easy to access. Our meetings provide a comfortable and confidential environment for individuals to share their experiences and receive support from others who are going through similar struggles.</p>
+            <button class="btn">View Meeting Schedule</button>
+            <div class="meeting-schedule">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday</td>
+                            <td>7:00 PM</td>
+                            <td>Online Meeting</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td>12:00 PM</td>
+                            <td>In-Person Meeting</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td>6:00 PM</td>
+                            <td>Online Meeting</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="testimonials" id="testimonials">
+            <h2>Testimonials</h2>
+            <p>Don't just take our word for it! Hear from our members who have successfully quit nicotine with our help.</p>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"NicFree Network has been a lifesaver for me. The support and encouragement I received from the group helped me quit nicotine for good."</p>
+                        <cite>Ramaswamy</cite>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"I was skeptical at first, but the NicFree Network meetings really worked for me. I've been nicotine-free for over a year now!"</p>
+                        <cite>Arnav</cite>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"The NicFree Network community is amazing. They provided me with the support and motivation I needed to quit nicotine."</p>
+                        <cite>Francois</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us to learn more about our meetings, ask questions, or share your story.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id
